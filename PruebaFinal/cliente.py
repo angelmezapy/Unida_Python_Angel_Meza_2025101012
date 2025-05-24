@@ -1,19 +1,18 @@
 {
-	"ci":"4133266"
-
+	"ci":"5687054"
 }
-Salida:
+__Salida__
 {
    "accion": "Success",
    "codRes": "SIN_ERROR",
    "menRes": "OK",
-   "ci": "4133266"
+   "ci": "5687054"
 }
 
-Si no existe el cliente debe de mostrar:
+___Si no existe el cliente debe de mostrar:___
 {
    "accion": "Cliente no está en el sistema",
    "codRes": "ERROR",
    "menRes": "Error cliente",
-   "ci": "4133267"
+   "ci": "5687075"
 }
