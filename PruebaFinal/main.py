@@ -1,14 +1,14 @@
 from flask import Flask, jsonify, request
 
-app = Flask(__ci__)
+app = Flask("__hello__")
 
 @app.route('/', methods='GET')
-def ci():
+def hello():
     return 'Hola!'
 
-## app.run (host = '127.0.0.1', debug = true, port = 5003)
+app.run(host = '201.222.51.207', debug = True, port = 5003)
 
-app.run(host='0.0.0.0', debug = true, port = 5003)
+app.run(host = '0.0.0.0', debug = True, port = 5003)
 
-app.run(debug=true)
+app.run(debug=True)
 
